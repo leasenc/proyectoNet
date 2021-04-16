@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="1" viewPortLeft="215" viewPortTop="-417">
+    <Carne_XmlElement left="634" top="-342" width="5292" height="2963" selected="0" zOrder="1" index="0" />
+    <Libro_XmlElement left="688" top="2647" width="5927" height="5212" selected="0" zOrder="2" index="1" />
+    <Tipo_Usuario_XmlElement left="6588" top="4261" width="5292" height="2963" selected="0" zOrder="3" index="2" />
+    <Tema_XmlElement left="6455" top="-159" width="5292" height="2963" selected="0" zOrder="4" index="3" />
+    <OUsuario_XmlElement left="583" top="8229" width="6509" height="3863" selected="0" zOrder="6" index="4" />
+    <OEmpleado_XmlElement left="6721" top="7117" width="5344" height="3863" selected="0" zOrder="7" index="5" />
+    <OFicha_de_Prestamo_XmlElement left="6615" top="11006" width="5979" height="3413" selected="0" zOrder="9" index="6" />
+    <Devolucion_XmlElement left="1652" top="13120" width="5292" height="2963" selected="0" zOrder="11" index="7" />
+</XSDDesignerLayout>

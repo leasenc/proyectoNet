@@ -1,0 +1,28 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudaSistemaBiblioteca.chm
+Contents file=Contenido.hhc
+Default Window=AyudaSistema
+Default topic=Presentacion.htm
+Display compile progress=No
+Full-text search=Yes
+Language=0x280a Español (Perú)
+
+[WINDOWS]
+AyudaSistema=,"Contenido.hhc",,,,,,,,0x23420,,0x300e,,,,,,,,0
+
+
+[FILES]
+ActBibliotecario.htm
+Presentacion.htm
+ActCarnet.htm
+ActDevolución.htm
+ActFichaPréstamo.htm
+ActLector.htm
+ActLibro.htm
+ActReportes.htm
+ActTema.htm
+ActTipoLector.htm
+
+[INFOTYPES]
+

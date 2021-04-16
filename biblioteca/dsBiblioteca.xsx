@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este archivo lo genera de forma automática el diseñador de esquemas XML. Contiene información de diseño para componentes de la superficie de diseño.-->
+<XSDDesignerLayout layoutVersion="1" viewPortLeft="0" viewPortTop="0">
+    <Tema_XmlElement left="900" top="953" width="5292" height="2963" selected="0" zOrder="2" index="0" />
+    <Libro_XmlElement left="1058" top="4499" width="5345" height="5661" selected="0" zOrder="3" index="1" />
+    <LibroTema_XmlKeyref left="6843" top="1865" width="503" height="503" selected="0" zOrder="5" />
+</XSDDesignerLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsBiblioteca1" targetNamespace="http://tempuri.org/dsBiblioteca1.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsBiblioteca1.xsd" xmlns:mstns="http://tempuri.org/dsBiblioteca1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsBiblioteca1" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Carne">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cod_carne" type="xs:int" />
+							<xs:element name="Fecha_Exp" type="xs:dateTime" />
+							<xs:element name="Fecha_Vcto" type="xs:dateTime" />
+							<xs:element name="Cod_Usuario" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Libro">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cod_Lib" type="xs:int" />
+							<xs:element name="Tit_Lib" type="xs:string" />
+							<xs:element name="Aut_Lib" type="xs:string" />
+							<xs:element name="NoPag_Lib" type="xs:int" />
+							<xs:element name="Edit_Lib" type="xs:string" />
+							<xs:element name="NoEdic_Lib" type="xs:string" />
+							<xs:element name="FechaIngreso" type="xs:dateTime" />
+							<xs:element name="Docto_Ing" type="xs:string" minOccurs="0" />
+							<xs:element name="Cod_Tema" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Tipo_Usuario">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id_Usu" type="xs:int" />
+							<xs:element name="Descrip_Usu" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Tema">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cod_Tema" type="xs:int" />
+							<xs:element name="Descripcion" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OUsuario">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cod_Usuario" type="xs:int" />
+							<xs:element name="Nombre_Usu" type="xs:string" />
+							<xs:element name="Apel_Usu" type="xs:string" />
+							<xs:element name="Dir_Usu" type="xs:string" />
+							<xs:element name="Id_Usu" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OEmpleado">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cod_Emp" type="xs:int" />
+							<xs:element name="Nom_Emp" type="xs:string" />
+							<xs:element name="Ape_Emp" type="xs:string" />
+							<xs:element name="Dir_Emp" type="xs:string" />
+							<xs:element name="Fecha_Ingreso" type="xs:dateTime" />
+							<xs:element name="Telefono" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OFicha_de_Prestamo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Fecha_Ptmo" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Nro_Ficha" type="xs:int" />
+							<xs:element name="Cod_carne" type="xs:int" />
+							<xs:element name="Cod_Lib" type="xs:int" />
+							<xs:element name="Cod_Emp" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Devolucion">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id_Dev" type="xs:int" />
+							<xs:element name="Nro_Ficha" type="xs:int" />
+							<xs:element name="Fecha_Dev" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Observacion" type="xs:string" minOccurs="0" />
+							<xs:element name="Cod_Emp" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dsBiblioteca1Key1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Carne" />
+			<xs:field xpath="mstns:Cod_carne" />
+		</xs:unique>
+		<xs:unique name="dsBiblioteca1Key2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Libro" />
+			<xs:field xpath="mstns:Cod_Lib" />
+		</xs:unique>
+		<xs:unique name="dsBiblioteca1Key3" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Tipo_Usuario" />
+			<xs:field xpath="mstns:Id_Usu" />
+		</xs:unique>
+		<xs:unique name="dsBiblioteca1Key4" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Tema" />
+			<xs:field xpath="mstns:Cod_Tema" />
+		</xs:unique>
+		<xs:unique name="dsBiblioteca1Key5" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:OUsuario" />
+			<xs:field xpath="mstns:Cod_Usuario" />
+		</xs:unique>
+		<xs:unique name="dsBiblioteca1Key6" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:OEmpleado" />
+			<xs:field xpath="mstns:Cod_Emp" />
+		</xs:unique>
+		<xs:unique name="dsBiblioteca1Key7" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:OFicha_de_Prestamo" />
+			<xs:field xpath="mstns:Nro_Ficha" />
+		</xs:unique>
+		<xs:unique name="dsBiblioteca1Key8" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Devolucion" />
+			<xs:field xpath="mstns:Id_Dev" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>
