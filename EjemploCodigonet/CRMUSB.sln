@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.WebSite", "Crear_Campana\CRM.WebSite.csproj", "{B956E3C3-ED4B-4F13-8D2A-08233C5486E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.CapaDatos", "CRM.CapaDatos\CRM.CapaDatos.csproj", "{D8D10B75-331B-493E-BAF0-0A100BA048A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Objetos", "CRM.Objetos\CRM.Objetos.csproj", "{75D93494-FB0C-45DC-8FB2-2E64E2117BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B956E3C3-ED4B-4F13-8D2A-08233C5486E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B956E3C3-ED4B-4F13-8D2A-08233C5486E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B956E3C3-ED4B-4F13-8D2A-08233C5486E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B956E3C3-ED4B-4F13-8D2A-08233C5486E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D10B75-331B-493E-BAF0-0A100BA048A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D10B75-331B-493E-BAF0-0A100BA048A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D10B75-331B-493E-BAF0-0A100BA048A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D10B75-331B-493E-BAF0-0A100BA048A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D93494-FB0C-45DC-8FB2-2E64E2117BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D93494-FB0C-45DC-8FB2-2E64E2117BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D93494-FB0C-45DC-8FB2-2E64E2117BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D93494-FB0C-45DC-8FB2-2E64E2117BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

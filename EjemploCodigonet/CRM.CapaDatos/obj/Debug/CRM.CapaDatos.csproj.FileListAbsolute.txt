@@ -1,0 +1,7 @@
+E:\Codigo\CRMUSB\CRMUSB\CRM.CapaDatos\bin\Debug\CRM.CapaDatos.dll
+E:\Codigo\CRMUSB\CRMUSB\CRM.CapaDatos\bin\Debug\CRM.CapaDatos.pdb
+E:\Codigo\CRMUSB\CRMUSB\CRM.CapaDatos\bin\Debug\CRM.Objetos.dll
+E:\Codigo\CRMUSB\CRMUSB\CRM.CapaDatos\bin\Debug\CRM.Objetos.pdb
+E:\Codigo\CRMUSB\CRMUSB\CRM.CapaDatos\obj\Debug\ResolveAssemblyReference.cache
+E:\Codigo\CRMUSB\CRMUSB\CRM.CapaDatos\obj\Debug\CRM.CapaDatos.dll
+E:\Codigo\CRMUSB\CRMUSB\CRM.CapaDatos\obj\Debug\CRM.CapaDatos.pdb

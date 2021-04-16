@@ -1,0 +1,9 @@
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\bin\Crear_Campana.dll
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\bin\Crear_Campana.pdb
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\bin\CRM.CapaDatos.dll
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\bin\CRM.Objetos.dll
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\bin\CRM.CapaDatos.pdb
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\bin\CRM.Objetos.pdb
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\obj\Debug\ResolveAssemblyReference.cache
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\obj\Debug\Crear_Campana.dll
+E:\Codigo\CRMUSB\CRMUSB\Crear_Campana\obj\Debug\Crear_Campana.pdb

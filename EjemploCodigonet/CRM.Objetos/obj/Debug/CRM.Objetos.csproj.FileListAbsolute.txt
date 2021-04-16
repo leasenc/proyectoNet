@@ -1,0 +1,5 @@
+E:\Codigo\CRMUSB\CRMUSB\CRM.Objetos\bin\Debug\CRM.Objetos.dll
+E:\Codigo\CRMUSB\CRMUSB\CRM.Objetos\bin\Debug\CRM.Objetos.pdb
+E:\Codigo\CRMUSB\CRMUSB\CRM.Objetos\obj\Debug\ResolveAssemblyReference.cache
+E:\Codigo\CRMUSB\CRMUSB\CRM.Objetos\obj\Debug\CRM.Objetos.dll
+E:\Codigo\CRMUSB\CRMUSB\CRM.Objetos\obj\Debug\CRM.Objetos.pdb

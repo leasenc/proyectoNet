@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CRM.CapaDatos.DAOCanal">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAE=</HashCode>
+      <FileName>DAOCanal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.CapaDatos.DAOObjetivo">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAAAAAgAAAAAAEAAAgAAAAECAAAAAAAAA=</HashCode>
+      <FileName>DAOObjetivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRM.CapaDatos.DAOUsuario">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAOUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
